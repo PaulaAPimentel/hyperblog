@@ -1,7 +1,7 @@
 body
 {
     color: mediumvioletred;
-    text-align: center;
+    text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     margin: 0;
@@ -10,13 +10,20 @@ body
 
  #cabecera
 {
-    background-color: blanchedalmond;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75) ;
+    text-align: center;
+    background-color: lightpink;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
     color: blueviolet;
     font-weight: bold;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 2em;
 
+}
+
+#cabecera #logo
+{
+    width: 60px;
+    vertical-align: center;
 }
 
 #cabecera #tagline
@@ -26,17 +33,25 @@ body
     font-size: 0.8em;
     
 }
+
  #container
 {
+    background-color: black;
     width: 70%;
     padding: 1em;
-    text-align: left;
+    text-align: light;
     border: 1px solid slateblue
 }
 
 #container h1
 {
     font-size: 20px;
+    background-color: pink;
+    text-align: center;
+}
 
+#post
+{
+    padding: 2px;
 
 }
