@@ -50,8 +50,8 @@ body
     text-align: center;
 }
 
-#post
+#footer
 {
-    padding: 2px;
-
+    background-color: aqua;
+    text-align: center;
 }
